@@ -41,7 +41,7 @@ function App() {
             <nav>
               <ul>
                 <li onClick={() => autoCloseHandler()}>
-                  <Link to={'/'}><img alt='scoot-logo' src={scoot} /></Link>
+                  <Link to={'/routing-site'}><img alt='scoot-logo' src={scoot} /></Link>
                 </li>
                 <li className={burgerStatus ? "linkDisplay navAbout" : "linkHide"} onClick={() => autoCloseHandler()}>
                   <Link to={'/about'}>About</Link>
@@ -63,7 +63,7 @@ function App() {
               <Route path={'/about'} element={<About/>} />
               <Route path={'/location'} element={<Location/>} />
               <Route path={'/careers'} element={<Careers/>} />
-              <Route path={'/'} element={<Home/>} />
+              <Route path={'/routing-site'} element={<Home/>} />
             </Routes>
           </main>
           <footer>
@@ -94,7 +94,7 @@ function App() {
             <div className='footer-bottom'>
               <ul>
                   <li>
-                    <Link to={'/'}><img alt='scoot-logo' src={scootW} /></Link>
+                    <Link to={'/routing-site'}><img alt='scoot-logo' src={scootW} /></Link>
                   </li>
                   <li>
                     <Link to={'/about'}>About</Link>
