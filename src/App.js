@@ -60,10 +60,10 @@ function App() {
           </header>
           <main>
             <Routes>
+              <Route path={'/routing-site'} element={<Home/>} />
               <Route path={'/about'} element={<About/>} />
               <Route path={'/location'} element={<Location/>} />
               <Route path={'/careers'} element={<Careers/>} />
-              <Route path={'/routing-site'} element={<Home/>} />
             </Routes>
           </main>
           <footer>

@@ -352,7 +352,7 @@ nav button:hover {
     width: 51.2%;
     display: block;
     position: absolute;
-    top: calc(97vh - 65px);
+    top: calc(90vh - 65px);
     z-index: 5;
   }
 
