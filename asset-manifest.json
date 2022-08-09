@@ -1,13 +1,31 @@
 {
   "files": {
-    "main.css": "/routing-site/static/css/main.a240c550.css",
-    "main.js": "/routing-site/static/js/main.8bd7d79e.js",
+    "main.css": "/routing-site/static/css/main.97f893f4.css",
+    "main.js": "/routing-site/static/js/main.a6ce1e0b.js",
+    "static/media/img-two.png": "/routing-site/static/media/img-two.f8051be7091a67267614.png",
+    "static/media/home-cover.jpg": "/routing-site/static/media/home-cover.aa68c367c27917473ad9.jpg",
+    "static/media/img-three.png": "/routing-site/static/media/img-three.3a954d5aa4b49405b694.png",
+    "static/media/home-cover768.jpg": "/routing-site/static/media/home-cover768.31876c2a120746c938a3.jpg",
+    "static/media/img-one.png": "/routing-site/static/media/img-one.af72523a1dd66d0d14f8.png",
+    "static/media/scooter.svg": "/routing-site/static/media/scooter.a455cd786a9b9d8df7388ac12de9277e.svg",
+    "static/media/scoot-w.svg": "/routing-site/static/media/scoot-w.e405e04668fe77d76ea5de53e00a7339.svg",
+    "static/media/scoot.svg": "/routing-site/static/media/scoot.e8abfc3454cc7a541177119af73a668b.svg",
+    "static/media/man-on-scooter.svg": "/routing-site/static/media/man-on-scooter.2b5c640b5f4f11c20136d946e491a3b3.svg",
+    "static/media/smart.svg": "/routing-site/static/media/smart.35feb85857b0d129cd51cfe6f0a87848.svg",
+    "static/media/apple.svg": "/routing-site/static/media/apple.3881ec2c59604e04d943ba0b28ad4caa.svg",
+    "static/media/google.svg": "/routing-site/static/media/google.c8c474997d24247c0b13941f6c99024a.svg",
     "index.html": "/routing-site/index.html",
-    "main.a240c550.css.map": "/routing-site/static/css/main.a240c550.css.map",
-    "main.8bd7d79e.js.map": "/routing-site/static/js/main.8bd7d79e.js.map"
+    "static/media/arr2.svg": "/routing-site/static/media/arr2.d2057f7572d1e660d06d583ffb95f23c.svg",
+    "static/media/arr1.svg": "/routing-site/static/media/arr1.7ff0197c1491edbbd7ff9f206a7da3b1.svg",
+    "static/media/burger.svg": "/routing-site/static/media/burger.e385f89b6fb7911bebfb9bce7000fc68.svg",
+    "static/media/burger-close.svg": "/routing-site/static/media/burger-close.c64a865cc784c7da5eba0b069bb692c9.svg",
+    "static/media/arr3.svg": "/routing-site/static/media/arr3.b5a7bf43da28c045d33ff15cc2483c8b.svg",
+    "static/media/arr0.svg": "/routing-site/static/media/arr0.3e68ce690ec8c0ca80d104ebea298ac9.svg",
+    "main.97f893f4.css.map": "/routing-site/static/css/main.97f893f4.css.map",
+    "main.a6ce1e0b.js.map": "/routing-site/static/js/main.a6ce1e0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a240c550.css",
-    "static/js/main.8bd7d79e.js"
+    "static/css/main.97f893f4.css",
+    "static/js/main.a6ce1e0b.js"
   ]
 }
