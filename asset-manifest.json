@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/routing-site/static/css/main.95465f78.css",
-    "main.js": "/routing-site/static/js/main.b8131106.js",
+    "main.css": "/routing-site/static/css/main.47c7cb35.css",
+    "main.js": "/routing-site/static/js/main.99be5654.js",
     "static/media/img-two.png": "/routing-site/static/media/img-two.f8051be7091a67267614.png",
     "static/media/home-cover.jpg": "/routing-site/static/media/home-cover.aa68c367c27917473ad9.jpg",
     "static/media/about-fb-img2.png": "/routing-site/static/media/about-fb-img2.5b04fe0f6d555f547e13.png",
     "static/media/img-three.png": "/routing-site/static/media/img-three.3a954d5aa4b49405b694.png",
+    "static/media/careers-fb-img1.png": "/routing-site/static/media/careers-fb-img1.bc3e74b8794bf5e9bd2d.png",
     "static/media/about-fb-img1.png": "/routing-site/static/media/about-fb-img1.b81ad300f9c4813fda80.png",
     "static/media/home-cover768.jpg": "/routing-site/static/media/home-cover768.31876c2a120746c938a3.jpg",
     "static/media/img-one.png": "/routing-site/static/media/img-one.af72523a1dd66d0d14f8.png",
@@ -14,6 +15,8 @@
     "static/media/about-card-1.png": "/routing-site/static/media/about-card-1.e638deeeb0e26f76dac7.png",
     "static/media/about-cover.png": "/routing-site/static/media/about-cover.b533f10033be5bab371f.png",
     "static/media/about-cover375.png": "/routing-site/static/media/about-cover375.ca124a152e440a2f1503.png",
+    "static/media/careers-cover.png": "/routing-site/static/media/careers-cover.674ea138c8804e23d07b.png",
+    "static/media/careers-locations-cover375.png": "/routing-site/static/media/careers-locations-cover375.cc9d16149bd390191b40.png",
     "static/media/scooter.svg": "/routing-site/static/media/scooter.a455cd786a9b9d8df7388ac12de9277e.svg",
     "static/media/scoot-w.svg": "/routing-site/static/media/scoot-w.e405e04668fe77d76ea5de53e00a7339.svg",
     "static/media/scoot.svg": "/routing-site/static/media/scoot.e8abfc3454cc7a541177119af73a668b.svg",
@@ -31,11 +34,11 @@
     "static/media/arr0.svg": "/routing-site/static/media/arr0.3e68ce690ec8c0ca80d104ebea298ac9.svg",
     "static/media/arr-top.svg": "/routing-site/static/media/arr-top.1d6f72b3e1d757458282dcf67d26bb3d.svg",
     "static/media/arr-bottom.svg": "/routing-site/static/media/arr-bottom.a0746ea6f20d8d673eb13ae97d65f313.svg",
-    "main.95465f78.css.map": "/routing-site/static/css/main.95465f78.css.map",
-    "main.b8131106.js.map": "/routing-site/static/js/main.b8131106.js.map"
+    "main.47c7cb35.css.map": "/routing-site/static/css/main.47c7cb35.css.map",
+    "main.99be5654.js.map": "/routing-site/static/js/main.99be5654.js.map"
   },
   "entrypoints": [
-    "static/css/main.95465f78.css",
-    "static/js/main.b8131106.js"
+    "static/css/main.47c7cb35.css",
+    "static/js/main.99be5654.js"
   ]
 }
