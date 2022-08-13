@@ -1,5 +1,5 @@
-.about-cover {
-    background: url("../img/about-cover.png");
+.careers-cover {
+    background: url("../img/careers-cover.png");
     width: 100%;
     height: 200px;
     background-position: center;
@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.about-cover h1 {
+.careers-cover h1 {
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 56px;
@@ -20,7 +20,7 @@
     padding-top: 72px;
 }
 
-.about-circles {
+.careers-circles {
     width: 234px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -30,7 +30,7 @@
     right: -31px;
 }
 
-.about-circle {
+.careers-circle {
     width: 62px;
     height: 62px;
     border-radius: 50%;
@@ -42,39 +42,27 @@
     background-color: var(--clear-white);
 }
 
-.about-fb {
+.careers-fb {
     padding: 120px 0 120px 0;
     overflow: hidden;
 }
 
-.about-fb-1 {
+.careers-fb-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 11.45% 0 11.45%;
 }
 
-.about-fb-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 11.45% 0 11.45%;
-    padding-top: 120px;
-}
-
-.about-fb-text {
+.careers-fb-text {
     max-width: 445px;
 }
 
-.about-fb-1 .about-fb-text {
+.careers-fb-1 .careers-fb-text {
     margin-right: 20px;
 }
 
-.about-fb-2 .about-fb-text {
-    margin-left: 20px;
-}
-
-.about-fb-text h2 {
+.careers-fb-text h2 {
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 48px;
@@ -83,7 +71,7 @@
     color: var(--dark-navy);
 }
 
-.about-fb-text p {
+.careers-fb-text p {
     font-family: 'Lexend Deca';
     font-weight: 400;
     font-size: 15px;
@@ -92,10 +80,32 @@
     margin-top: 24px;
 }
 
-.about-fb-circles-1 {
+.careers-fb-text button {
+    width: 180px;
+    height: 53px;
+    color: var(--clear-white);
+    background-color: var(--yellow);
+    border: none;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.careers-fb-text button:hover {
+    box-sizing: border-box;
+    border: 3px solid var(--yellow);
+    color: var(--yellow);
+    background-color: inherit;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.careers-fb-circles-1 {
     width: 445px;
     height: 445px;
-    background: url("../img/about-fb-img1.png");
+    background: url("../img/careers-fb-img1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,18 +113,7 @@
     position: relative;
 }
 
-.about-fb-circles-2 {
-    width: 445px;
-    height: 445px;
-    background: url("../img/about-fb-img2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    position: relative;
-}
-
-.about-fb-gray-circle-1 {
+.careers-fb-gray-circle-1 {
     width: 445px;
     height: 445px;
     position: absolute;
@@ -124,38 +123,22 @@
     right: -509px;
 }
 
-.about-fb-gray-circle-2 {
-    width: 445px;
-    height: 445px;
-    position: absolute;
-    background-color: var(--light-grey);
-    border-radius: 50%;
-    top: 0;
-    left: -509px;
-}
-
-.about-fb-circles-1 img {
+.careers-fb-circles-1 img {
     position: absolute;
     left: -125px;
     bottom: 38px;
 }
 
-.about-or-line {
+.careers-or-line {
     display: none;
 }
 
-.about-fb-circles-2 img {
-    position: absolute;
-    top: 8px;
-    left: -550px;
-}
-
-.about-sb {
+.careers-sb {
     margin: 0 11.45% 0 11.45%;
     padding-bottom: 120px;
 }
 
-.about-sb h2 {
+.careers-sb h2 {
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 48px;
@@ -166,7 +149,7 @@
     margin-bottom: 104px;
 }
 
-.about-sb-cards {
+.careers-sb-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
@@ -174,11 +157,11 @@
     align-items: center;
 }
 
-.about-sb-card {
+.careers-sb-card {
     max-width: 350px;
 }
 
-.about-sb-card-img-1 {
+.careers-sb-card-img-1 {
     width: 240px;
     height: 240px;
     background: url('../img/about-card-1.png');
@@ -190,7 +173,7 @@
     position: relative;
 }
 
-.about-sb-card-img-2 {
+.careers-sb-card-img-2 {
     width: 240px;
     height: 240px;
     background: url('../img/about-card-2.png');
@@ -202,7 +185,7 @@
     position: relative;
 }
 
-.about-sb-card-img-3 {
+.careers-sb-card-img-3 {
     width: 240px;
     height: 240px;
     background: url('../img/about-card-3.png');
@@ -214,7 +197,7 @@
     position: relative;
 }
 
-.about-sb-orange-circle {
+.careers-sb-orange-circle {
     width: 96px;
     height: 96px;
     position: absolute;
@@ -233,7 +216,7 @@
     color: var(--dark-navy);
 }
 
-.about-sb-card h4 {
+.careers-sb-card h4 {
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 24px;
@@ -245,7 +228,7 @@
     margin-bottom: 27px;
 }
 
-.about-sb-card p {
+.careers-sb-card p {
     font-family: 'Lexend Deca';
     font-weight: 400;
     font-size: 15px;
@@ -254,66 +237,27 @@
     color: var(--dim-grey);
 }
 
-.faq-block {
+.position-block {
     margin: 0 11.45% 0 11.45%;
     padding-bottom: 160px;
 }
 
-.faq-block h2 {
-    font-family: 'Space Mono';
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
-    text-align: center;
-    letter-spacing: -2.14286px;
-    color: var(--dark-navy);
-}
-
-.howItWorks, .safeDriving {
-    display: grid;
-    grid-template-columns: minmax(auto, 350px) minmax(auto, 730px);
-    grid-gap: 30px;
-    margin-top: 64px;
-}
-
-.howItWorks h3,
-.safeDriving h3 {
-    font-family: 'Space Mono';
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: -1.78571px;
-    color: var(--dark-navy);
-}
-
-.howItWorks ul,
-.safeDriving ul {
+.position-block ul {
     display: grid;
     grid-template-columns: 100%;
-    grid-gap: 16px;
+    grid-gap: 24px;
 }
 
-.howItWorks ul li,
-.safeDriving ul li {
+.position-block li {
     list-style-type: none;
     background-color: var(--snow);
-    padding: 32px 40px;
-    cursor: pointer;
-}
-
-.howItWorks ul li:hover,
-.safeDriving ul li:hover {
-    background-color: var(--light-yellow);
-}
-
-.question-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 32px 64px 35px 40px;
 }
 
-.howItWorks h4,
-.safeDriving h4 {
+.position-block h4 {
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 24px;
@@ -322,27 +266,34 @@
     color: var(--dark-navy);
 }
 
-.howItWorks img,
-.safeDriving img {
-    display: block;
-}
-
-.howItWorks p,
-.safeDriving p {
+.position-block p {
     font-family: 'Lexend Deca';
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     color: var(--dark-navy);
-    margin-top: 24px;
+    margin-top: 8px;
 }
 
-.answerNone {
-    display: none;
+.position-block button {
+    width: 180px;
+    height: 53px;
+    color: var(--clear-white);
+    background-color: var(--yellow);
+    border: none;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
 }
 
-.answerDisplay {
-    display: block;
+.position-block button:hover {
+    box-sizing: border-box;
+    border: 3px solid var(--yellow);
+    color: var(--yellow);
+    background-color: inherit;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 
@@ -350,35 +301,28 @@
 
 @media screen and (max-width: 1340px) {
     
-    .about-fb-circles-1 img {
+    .careers-fb-circles-1 img {
         left: 20px;
     }
 }
 
 @media screen and (max-width: 1000px) {
 
-    .about-fb {
+    .careers-fb {
         padding: 144px 0 120px 0;
     }
     
-    .about-fb-1 {
+    .careers-fb-1 {
         flex-direction: column-reverse;
         justify-content: center;
         margin: 0 11.45% 0 11.45%;
     }
-    
-    .about-fb-2 {
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 11.45% 0 11.45%;
-        padding-top: 120px;
-    }
 
-    .about-fb-circles-1 img {
+    .careers-fb-circles-1 img {
         left: -124px;
     }
 
-    .about-or-line {
+    .careers-or-line {
         display: block;
         width: 200px;
         height: 15px;
@@ -388,32 +332,24 @@
         right: -350px;
     }
 
-    .about-fb-text {
+    .careers-fb-text {
         max-width: 573px;
         text-align: center;
     }
 
-    .about-fb-1 .about-fb-text {
+    .careers-fb-1 .careers-fb-text {
         margin-right: 0;
     }
-    
-    .about-fb-2 .about-fb-text {
-        margin-left: 0;
-    }
 
-    .about-fb-text h2 {
+    .careers-fb-text h2 {
         margin: 56px auto 0 auto;
     }
 
-    .about-fb-text p {
+    .careers-fb-text p {
         margin-top: 40px;
     }
 
-    .about-fb-2 .about-fb-text h2 {
-        max-width: 457px;
-    }
-
-    .about-sb-cards {
+    .careers-sb-cards {
         grid-template-columns: auto;
         column-gap: normal;
         row-gap: 55px;
@@ -421,43 +357,31 @@
         align-items: center;
     }
 
-    .about-sb-card {
+    .careers-sb-card {
         max-width: 457px;
     }
 
-    .faq-block {
+    .position-block {
         margin: 0 5.20% 0 5.20%;
         padding-bottom: 120px;
     }
 
-    .howItWorks, .safeDriving {
-        grid-template-columns: 100%;
-        grid-gap: 32px;
+    .position-block ul {
+        grid-gap: 16px;
     }
-
-    .howItWorks ul li,
-    .safeDriving ul li {
-        padding: 32px 32px 32px 40px;
-    }
-
-    .howItWorks h3,
-    .safeDriving h3 {
-        text-align: center;
-    }
-
-    .howItWorks ul,
-    .safeDriving ul {
-        grid-gap: 24px;
+    
+    .position-block li {
+        padding: 34px 48px 33px 48px;
     }
 }
 
 @media screen and (max-width: 730px) {
 
-    .about-or-line {
+    .careers-or-line {
         display: none;
     }
 
-    .about-fb-circles-1 img {
+    .careers-fb-circles-1 img {
         left: -8px;
         bottom: 40px;
     }
@@ -465,12 +389,8 @@
 
 @media screen and (max-width: 545px) {
 
-    .about-fb {
-        padding: 72px 0 120px 0;
-    }
-    
-    .about-cover {
-        background: url("../img/about-cover375.png");
+    .careers-cover {
+        background: url("../img/careers-locations-cover375.png");
         width: 100%;
         height: 160px;
         background-position: center;
@@ -479,7 +399,7 @@
         position: relative;
     }
 
-    .about-cover h1 {
+    .careers-cover h1 {
         margin: 0 auto;
         padding-top: 60px;
         text-align: center;
@@ -488,95 +408,84 @@
         letter-spacing: -1.78px;
     }
 
-    .about-circles {
+    .careers-circles {
         display: none;
     }
 
-    .about-fb-1 {
-        margin: 0 8.53% 0 8.53%;
+    .careers-fb {
+        padding: 72px 0 120px 0;
     }
-    
-    .about-fb-2 {
+
+    .careers-fb-1 {
         margin: 0 8.53% 0 8.53%;
     }
 
-    .about-fb-circles-1,
-    .about-fb-circles-2 {
+    .careers-fb-circles-1 {
         width: 311px;
         height: 311px;
     }
     
-    .about-fb-gray-circle-1,
-    .about-fb-gray-circle-2 {
+    .careers-fb-gray-circle-1 {
         display: none;
     }
 
-    .about-fb-circles-2 img {
-        position: absolute;
-        top: -8px;
-        left: auto;
-        right: -5px;
-    }
-
-    .about-fb-text h2 {
+    .careers-fb-text h2 {
         font-size: 32px;
         line-height: 32px;
         letter-spacing: -1.42px;
     }
 
-    .about-fb-text p {
+    .careers-fb-text p {
         margin-top: 32px;
     }
 
-    .about-sb {
+    .careers-sb {
         margin: 0 8.53% 0 8.53%;
         padding-bottom: 145px;
     }
 
-    .about-sb h2 {
+    .careers-sb h2 {
         font-size: 32px;
         line-height: 32px;
         letter-spacing: -1.42px;
         margin-bottom: 64px;
     }
 
-    .about-sb-card h4 {
+    .careers-sb-card h4 {
         margin-top: 64px;
     }
 
-    .faq-block {
+    .position-block {
         margin: 0 8.53% 0 8.53%;
     }
 
-    .howItWorks, .safeDriving {
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: -1.07px;
-        margin-top: 48px;
+    .position-block li {
+        flex-direction: column;
+        justify-content: center;
+        padding: 36px 32px 32px 32px;
     }
 
-    .howItWorks ul,
-    .safeDriving ul {
-        grid-gap: 16px;
+    .position-block h4 {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.8px;
+        text-align: center;
+    }
+    
+    .position-block p {
+        margin-top: 4px;
+        text-align: center;
     }
 
-    .howItWorks ul li,
-    .safeDriving ul li {
-        padding: 32px 28px 32px 32px;
-    }
-
-    .howItWorks h3,
-    .safeDriving h3 {
-        font-size: 32px;
-        line-height: 32px;
-        letter-spacing: -1.42px;
+    .position-block button {
+        width: 100%;
+        margin-top: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
 
-    .about-fb-circles-1,
-    .about-fb-circles-2 {
+    .careers-fb-circles-1 {
         width: 240px;
         height: 240px;
     }
