@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/routing-site/static/css/main.b78c9da7.css",
-    "main.js": "/routing-site/static/js/main.384075ce.js",
+    "main.css": "/routing-site/static/css/main.95465f78.css",
+    "main.js": "/routing-site/static/js/main.b8131106.js",
     "static/media/img-two.png": "/routing-site/static/media/img-two.f8051be7091a67267614.png",
     "static/media/home-cover.jpg": "/routing-site/static/media/home-cover.aa68c367c27917473ad9.jpg",
     "static/media/about-fb-img2.png": "/routing-site/static/media/about-fb-img2.5b04fe0f6d555f547e13.png",
@@ -9,6 +9,9 @@
     "static/media/about-fb-img1.png": "/routing-site/static/media/about-fb-img1.b81ad300f9c4813fda80.png",
     "static/media/home-cover768.jpg": "/routing-site/static/media/home-cover768.31876c2a120746c938a3.jpg",
     "static/media/img-one.png": "/routing-site/static/media/img-one.af72523a1dd66d0d14f8.png",
+    "static/media/about-card-3.png": "/routing-site/static/media/about-card-3.6cc24eb717837fa052f4.png",
+    "static/media/about-card-2.png": "/routing-site/static/media/about-card-2.8259dcd587803ac2482c.png",
+    "static/media/about-card-1.png": "/routing-site/static/media/about-card-1.e638deeeb0e26f76dac7.png",
     "static/media/about-cover.png": "/routing-site/static/media/about-cover.b533f10033be5bab371f.png",
     "static/media/about-cover375.png": "/routing-site/static/media/about-cover375.ca124a152e440a2f1503.png",
     "static/media/scooter.svg": "/routing-site/static/media/scooter.a455cd786a9b9d8df7388ac12de9277e.svg",
@@ -26,11 +29,13 @@
     "static/media/burger-close.svg": "/routing-site/static/media/burger-close.c64a865cc784c7da5eba0b069bb692c9.svg",
     "static/media/arr3.svg": "/routing-site/static/media/arr3.b5a7bf43da28c045d33ff15cc2483c8b.svg",
     "static/media/arr0.svg": "/routing-site/static/media/arr0.3e68ce690ec8c0ca80d104ebea298ac9.svg",
-    "main.b78c9da7.css.map": "/routing-site/static/css/main.b78c9da7.css.map",
-    "main.384075ce.js.map": "/routing-site/static/js/main.384075ce.js.map"
+    "static/media/arr-top.svg": "/routing-site/static/media/arr-top.1d6f72b3e1d757458282dcf67d26bb3d.svg",
+    "static/media/arr-bottom.svg": "/routing-site/static/media/arr-bottom.a0746ea6f20d8d673eb13ae97d65f313.svg",
+    "main.95465f78.css.map": "/routing-site/static/css/main.95465f78.css.map",
+    "main.b8131106.js.map": "/routing-site/static/js/main.b8131106.js.map"
   },
   "entrypoints": [
-    "static/css/main.b78c9da7.css",
-    "static/js/main.384075ce.js"
+    "static/css/main.95465f78.css",
+    "static/js/main.b8131106.js"
   ]
 }
