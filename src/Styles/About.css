@@ -295,6 +295,7 @@
 
 .howItWorks ul li,
 .safeDriving ul li {
+    transition: background-color 0.3s;
     list-style-type: none;
     background-color: var(--snow);
     padding: 32px 40px;
